@@ -1,0 +1,51 @@
+.top {
+    height: 80px;
+    width: 100%;
+    background-color: #7E685A;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin+Sans";
+}
+
+.topLeft, .topRight{
+
+    flex:3;
+    background-color: rgb(173, 166, 166);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+}
+
+.topCenter{
+    flex:6;
+    background-color: rgb(60, 116, 84);
+    height:50px;
+}
+
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+    height:40px;
+    width:40px;
+}

@@ -1,0 +1,26 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+.main{
+    background-color: #C2CAD0;
+    margin: 0px;
+}
+
+.newPostButton{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    background-color: rgb(240, 48, 96);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
